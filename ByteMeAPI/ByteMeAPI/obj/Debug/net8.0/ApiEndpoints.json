@@ -1,0 +1,29 @@
+[
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetClientProfile",
+    "RelativePath": "ClientProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ByteMeAPI.Service.Models.Request.PersonalDetailsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.PersonalDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetClientProfile"
+  }
+]
