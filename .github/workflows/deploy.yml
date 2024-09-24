@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # This triggers the workflow on push to the main branch. Adjust if your default branch is different.
+      - Feature/commit
 
 jobs:
   build-and-deploy:
