@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ByteMeAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ClientProfileController : ControllerBase
     {
         private readonly ILogger<ClientProfileController> _logger;
