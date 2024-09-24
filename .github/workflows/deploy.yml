@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - Feature/commit
 
 concurrency:
   group: deploy-${{ github.ref }}
@@ -37,6 +38,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: YourAppName
+        app-name: ByteMeAPI
         publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
         package: ./ByteMeAPI/output
