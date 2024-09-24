@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ByteMeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2995df8f48c5663e29e959ffce208e54d278006")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7088bda774f9bd108013c579f4b91360c036e49a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ByteMeAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ByteMeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
