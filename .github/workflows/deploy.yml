@@ -1,0 +1,35 @@
+name: Deploy ASP.NET Core App to Azure Web App
+
+on:
+  push:
+    branches:
+      - main  # This triggers the workflow on push to the main branch. Adjust if your default branch is different.
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.0'  # Adjust based on your .NET Core version
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build the app
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Publish the app
+      run: dotnet publish --configuration Release --no-restore --output ./publish
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ByteMeAPI  # Replace with your Azure Web App name
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+        package: ./publish  # This is where the build output is published to
