@@ -7,40 +7,36 @@
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\idp\\authenticationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\idp\\authenticationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\entityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\entityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\iclientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\iclientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\clientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\clientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\iclientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\iclientprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\idp\\authenticationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\idp\\authenticationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\models\\response\\clientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\models\\response\\clientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\models\\response\\clientprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\models\\response\\clientprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\service\\models\\request\\clientprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\service\\models\\request\\clientprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,36 +46,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationToken.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\IDP\\AuthenticationToken.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\IDP\\AuthenticationToken.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\IDP\\AuthenticationToken.cs",
-              "RelativeToolTip": "ByteMeAPI\\IDP\\AuthenticationToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EntityClass.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\EntityClass.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\EntityClass.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\EntityClass.cs",
+              "RelativeToolTip": "ByteMeAPI\\EntityClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:06:28.863Z",
+              "WhenOpened": "2024-09-24T14:02:14.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientRequest.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Request\\ClientRequest.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\Models\\Request\\ClientRequest.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Request\\ClientRequest.cs",
-              "RelativeToolTip": "ByteMeAPI\\Service\\Models\\Request\\ClientRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ByteMeAPI\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:11:38.374Z"
+              "WhenOpened": "2024-09-24T14:00:35.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "ClientProfileManager.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\ClientProfileManager.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\ClientProfileManager.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\ClientProfileManager.cs",
+              "RelativeToolTip": "ByteMeAPI\\Service\\ClientProfileManager.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAmwNYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:25:01.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
+              "RelativeToolTip": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:17:26.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientProfileManager.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\IClientProfileManager.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\IClientProfileManager.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\IClientProfileManager.cs",
+              "RelativeToolTip": "ByteMeAPI\\Service\\IClientProfileManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:25:14.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Program.cs",
+              "RelativeToolTip": "ByteMeAPI\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:34:17.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ClientResponse.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Response\\ClientResponse.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Service\\Models\\Response\\ClientResponse.cs",
@@ -91,64 +137,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Program.cs",
-              "RelativeToolTip": "ByteMeAPI\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationToken.cs",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\IDP\\AuthenticationToken.cs",
+              "RelativeDocumentMoniker": "ByteMeAPI\\IDP\\AuthenticationToken.cs",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\IDP\\AuthenticationToken.cs",
+              "RelativeToolTip": "ByteMeAPI\\IDP\\AuthenticationToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:34:17.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClientProfileManager.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\ClientProfileManager.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\ClientProfileManager.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\ClientProfileManager.cs",
-              "RelativeToolTip": "ByteMeAPI\\Service\\ClientProfileManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwCIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:25:01.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
-              "RelativeToolTip": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:17:26.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClientProfileManager.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\IClientProfileManager.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\IClientProfileManager.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\IClientProfileManager.cs",
-              "RelativeToolTip": "ByteMeAPI\\Service\\IClientProfileManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:25:14.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ByteMeAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T12:57:15.841Z"
+              "WhenOpened": "2024-09-22T15:06:28.863Z"
             },
             {
               "$type": "Document",
@@ -161,18 +158,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T12:22:53.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientProfileRequest.cs",
-              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Request\\ClientProfileRequest.cs",
-              "RelativeDocumentMoniker": "ByteMeAPI\\Service\\Models\\Request\\ClientProfileRequest.cs",
-              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Request\\ClientProfileRequest.cs",
-              "RelativeToolTip": "ByteMeAPI\\Service\\Models\\Request\\ClientProfileRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:20:54Z"
             }
           ]
         }

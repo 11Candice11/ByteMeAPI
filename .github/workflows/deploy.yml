@@ -3,7 +3,12 @@ name: Deploy ASP.NET Core App to Azure Web App
 on:
   push:
     branches:
-      - main  # This triggers the workflow on push to the main branch. Adjust if your default branch is different.
+      - main
+      - Feature/commit
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -16,20 +21,23 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.0'  # Adjust based on your .NET Core version
+        dotnet-version: '8.0.x'  # Adjust to a stable version
 
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
-    - name: Build the app
-      run: dotnet build --configuration Release --no-restore
+    - name: Build project
+      run: dotnet build --configuration Release
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
-    - name: Publish the app
-      run: dotnet publish --configuration Release --no-restore --output ./publish
+    - name: Publish project
+      run: dotnet publish --configuration Release --output ./output
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: ByteMeAPI  # Replace with your Azure Web App name
+        app-name: ByteMeService
         publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-        package: ./publish  # This is where the build output is published to
+        package: ./ByteMeAPI/output

@@ -1,8 +1,44 @@
 [
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetAllClients",
+    "RelativePath": "api/ClientProfile/GetAllClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetBankDetails",
+    "RelativePath": "api/ClientProfile/GetBankDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.BankDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetClientProfile",
-    "RelativePath": "ClientProfile",
+    "RelativePath": "api/ClientProfile/GetClientProfile",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -23,7 +59,136 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetCompliance",
+    "RelativePath": "api/ClientProfile/GetCompliance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetClientProfile"
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.ComplianceStatusResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetContactDetails",
+    "RelativePath": "api/ClientProfile/GetContactDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.ContactDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetInteractionDetails",
+    "RelativePath": "api/ClientProfile/GetInteractionDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.InteractionDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetRelationshipDetails",
+    "RelativePath": "api/ClientProfile/GetRelationshipDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.RelationshipDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
+    "Method": "GetTaxDetails",
+    "RelativePath": "api/ClientProfile/GetTaxDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ByteMeAPI.Service.Models.Response.TaxDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

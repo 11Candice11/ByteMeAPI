@@ -19,21 +19,38 @@ public class ClientProfileManager : IClientProfileManager
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Required for EPPlus usage
     }
 
-    // Method to get personal details from the Excel file
-    public ClientResponse GetAllClients(ClientRequest request)
+    // Method to get all client profiles from the Excel file
+    public List<PersonalDetailsResponse> GetAllClients()
     {
+        var clients = new List<PersonalDetailsResponse>();
+
         using (var package = new ExcelPackage(new FileInfo(_filePath)))
         {
-            foreach (var sheet in package.Workbook.Worksheets)
-            {
-                Console.WriteLine(sheet.Name);
-            }
             var worksheet = package.Workbook.Worksheets["Personal Details"];
             var rowCount = worksheet?.Dimension.Rows;
-        }
 
-        return new ClientResponse();
+            if (rowCount.HasValue)
+            {
+                for (int row = 2; row <= rowCount.Value; row++) // Skipping header row
+                {
+                    var client = new PersonalDetailsResponse
+                    {
+                        EntityID = Convert.ToInt32(worksheet.Cells[row, 1].Value),
+                        ClientCode = worksheet.Cells[row, 2].Text,
+                        Company = worksheet.Cells[row, 3].Text,
+                        Surname = worksheet.Cells[row, 5].Text,
+                        FirstName = worksheet.Cells[row, 6].Text,
+                        DateOfBirth = DateTime.Parse(worksheet.Cells[row, 7].Text),
+                        // Populate other fields...
+                    };
+
+                    clients.Add(client);
+                }
+            }
+        }
+        return clients;
     }
+
 
     // Method to get personal details from the Excel file
     public PersonalDetailsResponse GetClientProfile(PersonalDetailsRequest request)
@@ -70,7 +87,7 @@ public class ClientProfileManager : IClientProfileManager
     }
 
     // Method to get compliance status
-    public ComplianceStatusResponse GetComplianceStatus(ComplianceStatusRequest request)
+    public ComplianceStatusResponse GetCompliance(int entityId)
     {
         using (var package = new ExcelPackage(new FileInfo(_filePath)))
         {
@@ -80,8 +97,8 @@ public class ClientProfileManager : IClientProfileManager
             for (int row = 2; row <= rowCount; row++) // Skipping header row
             {
                 // Assuming Entity ID is in a common column
-                int entityId = Convert.ToInt32(worksheet.Cells[row, 1].Value);
-                if (entityId == request.EntityID)
+                int entityID = Convert.ToInt32(worksheet.Cells[row, 1].Value);
+                if (entityID == entityId)
                 {
                     return new ComplianceStatusResponse
                     {
@@ -127,5 +144,79 @@ public class ClientProfileManager : IClientProfileManager
         return null;
     }
 
-    // Additional methods to pull data for other tables like ContactDetails, EmailDetails, StaffRelationships, etc.
+    public TaxDetailsResponse GetTaxDetails(int entityId)
+    {
+        using (var package = new ExcelPackage(new FileInfo(_filePath)))
+        {
+            var worksheet = package.Workbook.Worksheets["Bank Details"];
+            var rowCount = worksheet.Dimension.Rows;
+
+            for (int row = 2; row <= rowCount; row++) // Skipping header row
+            {
+                if (Convert.ToInt32(worksheet.Cells[row, 1].Value) == entityId)
+                {
+                    return new TaxDetailsResponse();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public ContactDetailsResponse GetContactDetails(int entityId)
+    {
+        using (var package = new ExcelPackage(new FileInfo(_filePath)))
+        {
+            var worksheet = package.Workbook.Worksheets["Bank Details"];
+            var rowCount = worksheet.Dimension.Rows;
+
+            for (int row = 2; row <= rowCount; row++) // Skipping header row
+            {
+                if (Convert.ToInt32(worksheet.Cells[row, 1].Value) == entityId)
+                {
+                    return new ContactDetailsResponse();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public RelationshipDetailsResponse GetRelationshipDetails(int entityId)
+    {
+        using (var package = new ExcelPackage(new FileInfo(_filePath)))
+        {
+            var worksheet = package.Workbook.Worksheets["Bank Details"];
+            var rowCount = worksheet.Dimension.Rows;
+
+            for (int row = 2; row <= rowCount; row++) // Skipping header row
+            {
+                if (Convert.ToInt32(worksheet.Cells[row, 1].Value) == entityId)
+                {
+                    return new RelationshipDetailsResponse();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public InteractionDetailsResponse GetInteractionDetails(int entityId)
+    {
+        using (var package = new ExcelPackage(new FileInfo(_filePath)))
+        {
+            var worksheet = package.Workbook.Worksheets["Bank Details"];
+            var rowCount = worksheet.Dimension.Rows;
+
+            for (int row = 2; row <= rowCount; row++) // Skipping header row
+            {
+                if (Convert.ToInt32(worksheet.Cells[row, 1].Value) == entityId)
+                {
+                    return new InteractionDetailsResponse();
+                }
+            }
+        }
+
+        return null;
+    }
 }
