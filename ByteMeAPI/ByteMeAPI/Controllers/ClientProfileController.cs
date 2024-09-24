@@ -19,20 +19,26 @@ namespace ByteMeAPI.Controllers
         }
 
 
-        //[HttpPost(Name = "AllClients")]
-        //public ClientResponse GetAllClients([FromBody] ClientRequest request)
-        //{
-        //    var clients = _clientProfileManager.GetAllClients(request);
+        [HttpGet("GetAllClients")]
+        public IActionResult GetAllClients()
+        {
+            try
+            {
+                var clients = _clientProfileManager.GetAllClients();
+                if (clients == null || !clients.Any())
+                {
+                    return NotFound("No clients found.");
+                }
+                return Ok(clients);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (using a logging framework)
+                return StatusCode(500, "Internal server error: " + ex.Message);
+            }
+        }
 
-        //    if (clients != null)
-        //    {
-        //        Console.WriteLine($"Retrieved all clients");
-        //        return clients;
-        //    }
-        //    return null;
-        //}
-
-        [HttpPost(Name = "GetClientProfile")]
+        [HttpPost("GetClientProfile")]
         public PersonalDetailsResponse GetClientProfile([FromBody] PersonalDetailsRequest request)
         {
             //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
@@ -41,6 +47,84 @@ namespace ByteMeAPI.Controllers
             if (personalDetails != null)
             {
                 Console.WriteLine($"Client Name: {personalDetails.FirstName} {personalDetails.Surname}");
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetCompliance")]
+        public ComplianceStatusResponse GetCompliance([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetCompliance(request);
+
+            if (personalDetails != null)
+            {
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetBankDetails")]
+        public BankDetailsResponse GetBankDetails([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetBankDetails(request);
+
+            if (personalDetails != null)
+            {
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetTaxDetails")]
+        public TaxDetailsResponse GetTaxDetails([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetTaxDetails(request);
+
+            if (personalDetails != null)
+            {
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetContactDetails")]
+        public ContactDetailsResponse GetContactDetails([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetContactDetails(request);
+
+            if (personalDetails != null)
+            {
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetRelationshipDetails")]
+        public RelationshipDetailsResponse GetRelationshipDetails([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetRelationshipDetails(request);
+
+            if (personalDetails != null)
+            {
+                return personalDetails;
+            }
+            return null;
+        }
+
+        [HttpPost("GetInteractionDetails")]
+        public InteractionDetailsResponse GetInteractionDetails([FromBody] int request)
+        {
+            //var personalDetailsRequest = new PersonalDetailsRequest { EntityID = 101 };
+            var personalDetails = _clientProfileManager.GetInteractionDetails(request);
+
+            if (personalDetails != null)
+            {
                 return personalDetails;
             }
             return null;
