@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|c:\\users\\stori\\onedrive\\desktop\\byteme josh\\bytemeapi\\bytemeapi\\bytemeapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C752A23-30F3-4CFB-B07D-79FB3690F03B}|ByteMeAPI\\ByteMeAPI.csproj|solutionrelative:bytemeapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ByteMeAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\appsettings.Development.json",
+              "RelativeToolTip": "ByteMeAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T13:29:56.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ByteMeAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\appsettings.json",
+              "RelativeToolTip": "ByteMeAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T13:29:53.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClientProfileManager.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\ClientProfileManager.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Service\\ClientProfileManager.cs",
@@ -54,20 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ClientProfileController.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
               "ToolTip": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Controllers\\ClientProfileController.cs",
               "RelativeToolTip": "ByteMeAPI\\Controllers\\ClientProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T12:17:26.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IClientProfileManager.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\IClientProfileManager.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Service\\IClientProfileManager.cs",
@@ -79,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Program.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Program.cs",
@@ -91,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ClientResponse.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Response\\ClientResponse.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Service\\Models\\Response\\ClientResponse.cs",
@@ -103,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AuthenticationToken.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\IDP\\AuthenticationToken.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\IDP\\AuthenticationToken.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ClientProfileResponse.cs",
               "DocumentMoniker": "C:\\Users\\stori\\OneDrive\\Desktop\\ByteMe Josh\\ByteMeAPI\\ByteMeAPI\\ByteMeAPI\\Service\\Models\\Response\\ClientProfileResponse.cs",
               "RelativeDocumentMoniker": "ByteMeAPI\\Service\\Models\\Response\\ClientProfileResponse.cs",

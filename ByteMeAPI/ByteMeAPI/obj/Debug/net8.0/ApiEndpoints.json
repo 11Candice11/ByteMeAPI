@@ -2,7 +2,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetAllClients",
-    "RelativePath": "ClientProfile/GetAllClients",
+    "RelativePath": "api/ClientProfile/GetAllClients",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetBankDetails",
-    "RelativePath": "ClientProfile/GetBankDetails",
+    "RelativePath": "api/ClientProfile/GetBankDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetClientProfile",
-    "RelativePath": "ClientProfile/GetClientProfile",
+    "RelativePath": "api/ClientProfile/GetClientProfile",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -64,7 +64,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetCompliance",
-    "RelativePath": "ClientProfile/GetCompliance",
+    "RelativePath": "api/ClientProfile/GetCompliance",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -90,7 +90,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetContactDetails",
-    "RelativePath": "ClientProfile/GetContactDetails",
+    "RelativePath": "api/ClientProfile/GetContactDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -116,7 +116,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetInteractionDetails",
-    "RelativePath": "ClientProfile/GetInteractionDetails",
+    "RelativePath": "api/ClientProfile/GetInteractionDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -142,7 +142,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetRelationshipDetails",
-    "RelativePath": "ClientProfile/GetRelationshipDetails",
+    "RelativePath": "api/ClientProfile/GetRelationshipDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -168,7 +168,7 @@
   {
     "ContainingType": "ByteMeAPI.Controllers.ClientProfileController",
     "Method": "GetTaxDetails",
-    "RelativePath": "ClientProfile/GetTaxDetails",
+    "RelativePath": "api/ClientProfile/GetTaxDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
