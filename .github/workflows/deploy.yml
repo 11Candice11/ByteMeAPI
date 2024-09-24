@@ -24,19 +24,19 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: src  # Specify the directory where your .csproj or .sln is located
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
     - name: Build project
       run: dotnet build --configuration Release
-      working-directory: src  # Specify the directory where your .csproj or .sln is located
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
     - name: Publish project
       run: dotnet publish --configuration Release --output ./output
-      working-directory: src  # Specify the directory where your .csproj or .sln is located
+      working-directory: ByteMeAPI  # Specify the directory where your .csproj or .sln is located
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
         app-name: YourAppName
         publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-        package: ./src/output
+        package: ./ByteMeAPI/output
